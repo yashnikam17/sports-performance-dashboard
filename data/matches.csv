@@ -1,0 +1,241 @@
+match_id,date,opponent,player,team,runs,balls_faced,fours,sixes,overs_bowled,wickets,runs_conceded
+1,2026-01-04,South Africa,Rohit,Mumbai,27,33,6,4,0,0,0
+1,2026-01-04,South Africa,Virat,Delhi,16,23,4,2,4,3,36
+1,2026-01-04,South Africa,Hardik,Baroda,17,26,4,2,2,1,10
+1,2026-01-04,South Africa,Bumrah,Gujarat,33,25,5,4,4,0,26
+1,2026-01-04,South Africa,Jadeja,Saurashtra,30,46,2,3,3,3,25
+1,2026-01-04,South Africa,Gill,Punjab,11,7,2,1,0,0,0
+1,2026-01-04,South Africa,Rahul,Karnataka,13,8,1,1,0,0,0
+1,2026-01-04,South Africa,Siraj,Hyderabad,8,6,2,1,0,0,0
+2,2026-01-07,Pakistan,Rohit,Mumbai,19,18,1,3,2,1,16
+2,2026-01-07,Pakistan,Virat,Delhi,58,46,1,1,4,1,29
+2,2026-01-07,Pakistan,Hardik,Baroda,52,40,7,3,0,0,0
+2,2026-01-07,Pakistan,Bumrah,Gujarat,26,25,1,4,4,1,43
+2,2026-01-07,Pakistan,Jadeja,Saurashtra,37,49,0,0,3,0,28
+2,2026-01-07,Pakistan,Gill,Punjab,45,48,2,0,4,2,38
+2,2026-01-07,Pakistan,Rahul,Karnataka,15,9,3,2,3,0,26
+2,2026-01-07,Pakistan,Siraj,Hyderabad,27,38,6,4,3,3,26
+3,2026-01-10,Pakistan,Rohit,Mumbai,45,39,4,2,0,0,0
+3,2026-01-10,Pakistan,Virat,Delhi,89,59,6,2,0,0,0
+3,2026-01-10,Pakistan,Hardik,Baroda,18,30,2,0,4,0,32
+3,2026-01-10,Pakistan,Bumrah,Gujarat,26,34,6,4,3,2,18
+3,2026-01-10,Pakistan,Jadeja,Saurashtra,11,17,2,1,2,1,19
+3,2026-01-10,Pakistan,Gill,Punjab,93,57,3,2,4,1,22
+3,2026-01-10,Pakistan,Rahul,Karnataka,28,29,0,0,0,0,0
+3,2026-01-10,Pakistan,Siraj,Hyderabad,57,56,2,2,0,0,0
+4,2026-01-13,Australia,Rohit,Mumbai,50,55,7,2,2,3,16
+4,2026-01-13,Australia,Virat,Delhi,48,45,0,1,4,3,26
+4,2026-01-13,Australia,Hardik,Baroda,8,6,2,0,4,0,26
+4,2026-01-13,Australia,Bumrah,Gujarat,7,6,1,1,4,0,35
+4,2026-01-13,Australia,Jadeja,Saurashtra,7,6,1,1,3,2,21
+4,2026-01-13,Australia,Gill,Punjab,30,21,7,4,4,1,35
+4,2026-01-13,Australia,Rahul,Karnataka,23,15,0,0,4,2,24
+4,2026-01-13,Australia,Siraj,Hyderabad,53,33,3,2,2,2,19
+5,2026-01-16,South Africa,Rohit,Mumbai,25,36,6,0,4,3,32
+5,2026-01-16,South Africa,Virat,Delhi,33,44,8,0,2,2,16
+5,2026-01-16,South Africa,Hardik,Baroda,41,46,8,3,4,0,25
+5,2026-01-16,South Africa,Bumrah,Gujarat,91,52,4,4,4,2,24
+5,2026-01-16,South Africa,Jadeja,Saurashtra,45,45,2,3,4,1,38
+5,2026-01-16,South Africa,Gill,Punjab,45,28,0,3,2,3,17
+5,2026-01-16,South Africa,Rahul,Karnataka,40,39,8,2,0,0,0
+5,2026-01-16,South Africa,Siraj,Hyderabad,62,50,5,2,4,0,25
+6,2026-01-19,Australia,Rohit,Mumbai,7,8,1,1,4,3,37
+6,2026-01-19,Australia,Virat,Delhi,9,7,0,1,3,2,26
+6,2026-01-19,Australia,Hardik,Baroda,23,26,5,3,3,1,31
+6,2026-01-19,Australia,Bumrah,Gujarat,48,31,0,3,3,3,30
+6,2026-01-19,Australia,Jadeja,Saurashtra,48,52,2,0,4,0,43
+6,2026-01-19,Australia,Gill,Punjab,59,34,4,2,4,0,42
+6,2026-01-19,Australia,Rahul,Karnataka,36,33,4,2,4,0,21
+6,2026-01-19,Australia,Siraj,Hyderabad,20,25,0,2,4,1,33
+7,2026-01-22,England,Rohit,Mumbai,8,7,2,1,4,2,43
+7,2026-01-22,England,Virat,Delhi,5,6,1,0,0,0,0
+7,2026-01-22,England,Hardik,Baroda,18,13,4,3,2,2,15
+7,2026-01-22,England,Bumrah,Gujarat,88,54,6,0,4,0,24
+7,2026-01-22,England,Jadeja,Saurashtra,17,12,2,2,2,1,15
+7,2026-01-22,England,Gill,Punjab,25,26,5,1,2,1,13
+7,2026-01-22,England,Rahul,Karnataka,73,46,5,2,4,0,32
+7,2026-01-22,England,Siraj,Hyderabad,52,57,4,3,2,0,12
+8,2026-01-25,Pakistan,Rohit,Mumbai,45,59,1,3,2,1,10
+8,2026-01-25,Pakistan,Virat,Delhi,25,23,6,1,0,0,0
+8,2026-01-25,Pakistan,Hardik,Baroda,30,27,4,0,2,1,11
+8,2026-01-25,Pakistan,Bumrah,Gujarat,33,38,5,0,4,0,26
+8,2026-01-25,Pakistan,Jadeja,Saurashtra,24,20,4,4,3,2,19
+8,2026-01-25,Pakistan,Gill,Punjab,15,20,3,0,0,0,0
+8,2026-01-25,Pakistan,Rahul,Karnataka,6,9,1,1,4,3,22
+8,2026-01-25,Pakistan,Siraj,Hyderabad,81,52,3,0,2,1,17
+9,2026-01-28,England,Rohit,Mumbai,24,14,3,1,4,2,20
+9,2026-01-28,England,Virat,Delhi,27,23,0,4,0,0,0
+9,2026-01-28,England,Hardik,Baroda,48,28,1,0,4,3,35
+9,2026-01-28,England,Bumrah,Gujarat,30,24,1,2,4,0,30
+9,2026-01-28,England,Jadeja,Saurashtra,87,55,2,0,0,0,0
+9,2026-01-28,England,Gill,Punjab,39,47,1,4,3,1,27
+9,2026-01-28,England,Rahul,Karnataka,29,21,1,2,0,0,0
+9,2026-01-28,England,Siraj,Hyderabad,58,57,7,3,0,0,0
+10,2026-01-31,Australia,Rohit,Mumbai,32,40,8,2,0,0,0
+10,2026-01-31,Australia,Virat,Delhi,41,40,6,4,4,0,36
+10,2026-01-31,Australia,Hardik,Baroda,40,27,8,0,0,0,0
+10,2026-01-31,Australia,Bumrah,Gujarat,55,52,2,0,4,3,43
+10,2026-01-31,Australia,Jadeja,Saurashtra,16,23,4,2,2,2,21
+10,2026-01-31,Australia,Gill,Punjab,27,23,4,4,3,3,20
+10,2026-01-31,Australia,Rahul,Karnataka,37,25,6,0,3,0,31
+10,2026-01-31,Australia,Siraj,Hyderabad,77,43,4,2,3,0,21
+11,2026-02-03,England,Rohit,Mumbai,39,51,0,4,2,2,15
+11,2026-02-03,England,Virat,Delhi,30,44,1,2,2,1,10
+11,2026-02-03,England,Hardik,Baroda,36,41,7,4,0,0,0
+11,2026-02-03,England,Bumrah,Gujarat,36,21,8,4,4,3,29
+11,2026-02-03,England,Jadeja,Saurashtra,41,35,5,2,2,1,13
+11,2026-02-03,England,Gill,Punjab,6,7,1,1,2,1,18
+11,2026-02-03,England,Rahul,Karnataka,8,12,2,0,3,0,19
+11,2026-02-03,England,Siraj,Hyderabad,37,53,0,4,2,1,10
+12,2026-02-06,New Zealand,Rohit,Mumbai,85,51,5,4,3,3,16
+12,2026-02-06,New Zealand,Virat,Delhi,55,39,8,1,3,0,18
+12,2026-02-06,New Zealand,Hardik,Baroda,21,19,4,2,4,2,21
+12,2026-02-06,New Zealand,Bumrah,Gujarat,28,16,7,3,4,3,28
+12,2026-02-06,New Zealand,Jadeja,Saurashtra,44,32,7,1,4,1,26
+12,2026-02-06,New Zealand,Gill,Punjab,72,41,5,0,0,0,0
+12,2026-02-06,New Zealand,Rahul,Karnataka,31,24,2,4,2,1,14
+12,2026-02-06,New Zealand,Siraj,Hyderabad,12,9,1,1,4,1,40
+13,2026-02-09,New Zealand,Rohit,Mumbai,5,9,0,0,2,3,21
+13,2026-02-09,New Zealand,Virat,Delhi,19,15,4,2,3,0,30
+13,2026-02-09,New Zealand,Hardik,Baroda,24,38,0,4,4,2,40
+13,2026-02-09,New Zealand,Bumrah,Gujarat,26,21,4,2,0,0,0
+13,2026-02-09,New Zealand,Jadeja,Saurashtra,98,57,2,0,0,0,0
+13,2026-02-09,New Zealand,Gill,Punjab,45,50,3,0,0,0,0
+13,2026-02-09,New Zealand,Rahul,Karnataka,39,38,7,1,2,1,15
+13,2026-02-09,New Zealand,Siraj,Hyderabad,8,7,0,1,0,0,0
+14,2026-02-12,Pakistan,Rohit,Mumbai,15,21,3,2,0,0,0
+14,2026-02-12,Pakistan,Virat,Delhi,12,15,3,2,2,1,17
+14,2026-02-12,Pakistan,Hardik,Baroda,23,22,2,1,4,0,32
+14,2026-02-12,Pakistan,Bumrah,Gujarat,47,28,6,1,3,0,32
+14,2026-02-12,Pakistan,Jadeja,Saurashtra,9,8,0,1,0,0,0
+14,2026-02-12,Pakistan,Gill,Punjab,18,28,4,3,2,0,12
+14,2026-02-12,Pakistan,Rahul,Karnataka,41,47,2,0,3,2,25
+14,2026-02-12,Pakistan,Siraj,Hyderabad,11,15,2,1,4,3,28
+15,2026-02-15,Pakistan,Rohit,Mumbai,42,36,1,4,2,2,10
+15,2026-02-15,Pakistan,Virat,Delhi,9,9,2,1,2,0,16
+15,2026-02-15,Pakistan,Hardik,Baroda,13,16,1,0,2,1,18
+15,2026-02-15,Pakistan,Bumrah,Gujarat,9,13,2,1,3,3,16
+15,2026-02-15,Pakistan,Jadeja,Saurashtra,49,30,7,0,3,0,32
+15,2026-02-15,Pakistan,Gill,Punjab,53,51,5,1,4,2,32
+15,2026-02-15,Pakistan,Rahul,Karnataka,8,6,2,1,3,2,31
+15,2026-02-15,Pakistan,Siraj,Hyderabad,74,50,1,1,2,2,14
+16,2026-02-18,Australia,Rohit,Mumbai,62,59,6,0,0,0,0
+16,2026-02-18,Australia,Virat,Delhi,37,30,8,0,0,0,0
+16,2026-02-18,Australia,Hardik,Baroda,8,8,2,1,2,2,17
+16,2026-02-18,Australia,Bumrah,Gujarat,33,26,7,0,4,2,29
+16,2026-02-18,Australia,Jadeja,Saurashtra,42,41,1,2,4,2,43
+16,2026-02-18,Australia,Gill,Punjab,70,41,4,4,2,1,12
+16,2026-02-18,Australia,Rahul,Karnataka,12,8,3,0,3,2,24
+16,2026-02-18,Australia,Siraj,Hyderabad,63,44,7,1,4,3,42
+17,2026-02-21,Australia,Rohit,Mumbai,27,34,2,0,2,2,16
+17,2026-02-21,Australia,Virat,Delhi,28,30,4,1,2,3,15
+17,2026-02-21,Australia,Hardik,Baroda,54,37,0,1,2,3,11
+17,2026-02-21,Australia,Bumrah,Gujarat,25,15,2,0,2,1,15
+17,2026-02-21,Australia,Jadeja,Saurashtra,6,9,1,1,4,1,22
+17,2026-02-21,Australia,Gill,Punjab,24,41,6,2,3,3,25
+17,2026-02-21,Australia,Rahul,Karnataka,39,39,0,4,2,3,21
+17,2026-02-21,Australia,Siraj,Hyderabad,30,18,7,1,4,2,21
+18,2026-02-24,South Africa,Rohit,Mumbai,25,33,6,4,2,3,11
+18,2026-02-24,South Africa,Virat,Delhi,20,25,2,2,2,1,20
+18,2026-02-24,South Africa,Hardik,Baroda,47,29,8,1,4,3,30
+18,2026-02-24,South Africa,Bumrah,Gujarat,30,18,5,0,3,2,24
+18,2026-02-24,South Africa,Jadeja,Saurashtra,29,29,6,1,2,0,20
+18,2026-02-24,South Africa,Gill,Punjab,68,55,5,2,3,2,21
+18,2026-02-24,South Africa,Rahul,Karnataka,86,56,0,3,2,2,16
+18,2026-02-24,South Africa,Siraj,Hyderabad,25,33,0,4,0,0,0
+19,2026-02-27,Australia,Rohit,Mumbai,10,8,2,1,2,0,11
+19,2026-02-27,Australia,Virat,Delhi,12,17,3,2,4,3,29
+19,2026-02-27,Australia,Hardik,Baroda,41,33,3,3,0,0,0
+19,2026-02-27,Australia,Bumrah,Gujarat,46,35,3,3,2,2,17
+19,2026-02-27,Australia,Jadeja,Saurashtra,19,24,4,1,2,2,11
+19,2026-02-27,Australia,Gill,Punjab,13,17,1,0,0,0,0
+19,2026-02-27,Australia,Rahul,Karnataka,80,47,3,3,0,0,0
+19,2026-02-27,Australia,Siraj,Hyderabad,16,12,0,2,3,1,16
+20,2026-03-02,Pakistan,Rohit,Mumbai,23,33,5,2,3,0,17
+20,2026-03-02,Pakistan,Virat,Delhi,19,25,3,0,0,0,0
+20,2026-03-02,Pakistan,Hardik,Baroda,51,59,4,0,0,0,0
+20,2026-03-02,Pakistan,Bumrah,Gujarat,86,56,8,2,3,3,24
+20,2026-03-02,Pakistan,Jadeja,Saurashtra,25,15,6,1,3,1,31
+20,2026-03-02,Pakistan,Gill,Punjab,30,47,2,0,3,3,22
+20,2026-03-02,Pakistan,Rahul,Karnataka,27,28,5,1,4,1,35
+20,2026-03-02,Pakistan,Siraj,Hyderabad,19,11,4,0,4,1,40
+21,2026-03-05,New Zealand,Rohit,Mumbai,52,44,0,4,2,2,15
+21,2026-03-05,New Zealand,Virat,Delhi,23,23,0,3,0,0,0
+21,2026-03-05,New Zealand,Hardik,Baroda,57,44,0,2,3,1,24
+21,2026-03-05,New Zealand,Bumrah,Gujarat,37,32,5,2,3,3,18
+21,2026-03-05,New Zealand,Jadeja,Saurashtra,22,33,2,1,2,2,17
+21,2026-03-05,New Zealand,Gill,Punjab,23,37,1,3,4,0,33
+21,2026-03-05,New Zealand,Rahul,Karnataka,6,7,1,0,3,0,18
+21,2026-03-05,New Zealand,Siraj,Hyderabad,46,37,7,1,3,3,32
+22,2026-03-08,Pakistan,Rohit,Mumbai,21,20,4,3,2,2,13
+22,2026-03-08,Pakistan,Virat,Delhi,13,22,3,0,3,0,15
+22,2026-03-08,Pakistan,Hardik,Baroda,29,23,1,1,0,0,0
+22,2026-03-08,Pakistan,Bumrah,Gujarat,24,24,1,2,3,2,19
+22,2026-03-08,Pakistan,Jadeja,Saurashtra,9,9,2,1,0,0,0
+22,2026-03-08,Pakistan,Gill,Punjab,99,56,7,0,2,1,15
+22,2026-03-08,Pakistan,Rahul,Karnataka,58,50,0,1,3,0,19
+22,2026-03-08,Pakistan,Siraj,Hyderabad,63,44,8,0,2,1,20
+23,2026-03-11,South Africa,Rohit,Mumbai,36,30,1,4,3,1,31
+23,2026-03-11,South Africa,Virat,Delhi,39,25,8,1,0,0,0
+23,2026-03-11,South Africa,Hardik,Baroda,67,42,6,4,2,1,11
+23,2026-03-11,South Africa,Bumrah,Gujarat,57,35,7,1,4,0,35
+23,2026-03-11,South Africa,Jadeja,Saurashtra,14,11,0,1,0,0,0
+23,2026-03-11,South Africa,Gill,Punjab,32,50,5,2,0,0,0
+23,2026-03-11,South Africa,Rahul,Karnataka,61,40,4,2,4,2,28
+23,2026-03-11,South Africa,Siraj,Hyderabad,77,53,7,2,2,1,14
+24,2026-03-14,New Zealand,Rohit,Mumbai,34,37,3,2,3,3,15
+24,2026-03-14,New Zealand,Virat,Delhi,38,49,8,1,2,0,14
+24,2026-03-14,New Zealand,Hardik,Baroda,64,44,8,4,3,3,22
+24,2026-03-14,New Zealand,Bumrah,Gujarat,29,43,1,4,4,3,43
+24,2026-03-14,New Zealand,Jadeja,Saurashtra,54,42,2,4,4,2,42
+24,2026-03-14,New Zealand,Gill,Punjab,36,21,6,0,3,3,24
+24,2026-03-14,New Zealand,Rahul,Karnataka,42,28,4,0,3,0,27
+24,2026-03-14,New Zealand,Siraj,Hyderabad,17,10,1,0,4,2,36
+25,2026-03-17,Australia,Rohit,Mumbai,68,49,6,0,3,1,25
+25,2026-03-17,Australia,Virat,Delhi,7,11,1,0,3,3,17
+25,2026-03-17,Australia,Hardik,Baroda,41,27,3,2,2,2,19
+25,2026-03-17,Australia,Bumrah,Gujarat,28,21,7,2,4,3,31
+25,2026-03-17,Australia,Jadeja,Saurashtra,10,7,2,1,3,2,16
+25,2026-03-17,Australia,Gill,Punjab,29,19,3,4,2,0,18
+25,2026-03-17,Australia,Rahul,Karnataka,61,37,1,2,2,1,10
+25,2026-03-17,Australia,Siraj,Hyderabad,48,59,1,2,3,2,15
+26,2026-03-20,New Zealand,Rohit,Mumbai,57,53,4,3,0,0,0
+26,2026-03-20,New Zealand,Virat,Delhi,85,48,8,3,0,0,0
+26,2026-03-20,New Zealand,Hardik,Baroda,38,53,7,1,4,1,25
+26,2026-03-20,New Zealand,Bumrah,Gujarat,27,29,4,0,3,0,22
+26,2026-03-20,New Zealand,Jadeja,Saurashtra,6,8,1,1,0,0,0
+26,2026-03-20,New Zealand,Gill,Punjab,17,10,4,2,2,0,21
+26,2026-03-20,New Zealand,Rahul,Karnataka,19,11,4,3,0,0,0
+26,2026-03-20,New Zealand,Siraj,Hyderabad,91,57,1,0,2,0,12
+27,2026-03-23,Pakistan,Rohit,Mumbai,15,10,3,0,0,0,0
+27,2026-03-23,Pakistan,Virat,Delhi,42,53,2,1,2,1,21
+27,2026-03-23,Pakistan,Hardik,Baroda,11,7,2,1,4,0,32
+27,2026-03-23,Pakistan,Bumrah,Gujarat,21,13,4,1,3,0,22
+27,2026-03-23,Pakistan,Jadeja,Saurashtra,37,32,2,0,2,3,10
+27,2026-03-23,Pakistan,Gill,Punjab,26,19,4,2,3,1,22
+27,2026-03-23,Pakistan,Rahul,Karnataka,11,19,2,1,2,1,21
+27,2026-03-23,Pakistan,Siraj,Hyderabad,73,52,4,4,0,0,0
+28,2026-03-26,New Zealand,Rohit,Mumbai,43,36,2,1,3,3,26
+28,2026-03-26,New Zealand,Virat,Delhi,56,44,0,2,4,3,25
+28,2026-03-26,New Zealand,Hardik,Baroda,75,52,8,4,2,3,17
+28,2026-03-26,New Zealand,Bumrah,Gujarat,34,42,4,2,0,0,0
+28,2026-03-26,New Zealand,Jadeja,Saurashtra,91,55,4,1,4,1,39
+28,2026-03-26,New Zealand,Gill,Punjab,30,33,1,4,2,2,21
+28,2026-03-26,New Zealand,Rahul,Karnataka,15,21,1,2,4,3,39
+28,2026-03-26,New Zealand,Siraj,Hyderabad,37,52,6,1,0,0,0
+29,2026-03-29,South Africa,Rohit,Mumbai,32,19,5,3,4,3,38
+29,2026-03-29,South Africa,Virat,Delhi,7,8,0,1,2,0,16
+29,2026-03-29,South Africa,Hardik,Baroda,3,5,0,0,2,1,21
+29,2026-03-29,South Africa,Bumrah,Gujarat,89,51,3,2,3,3,28
+29,2026-03-29,South Africa,Jadeja,Saurashtra,7,11,0,1,3,1,15
+29,2026-03-29,South Africa,Gill,Punjab,35,38,3,0,3,0,30
+29,2026-03-29,South Africa,Rahul,Karnataka,29,19,3,1,3,1,19
+29,2026-03-29,South Africa,Siraj,Hyderabad,13,15,0,2,4,3,37
+30,2026-04-01,New Zealand,Rohit,Mumbai,25,24,6,4,3,2,22
+30,2026-04-01,New Zealand,Virat,Delhi,36,42,2,0,0,0,0
+30,2026-04-01,New Zealand,Hardik,Baroda,36,22,7,3,2,0,20
+30,2026-04-01,New Zealand,Bumrah,Gujarat,44,57,1,3,3,2,29
+30,2026-04-01,New Zealand,Jadeja,Saurashtra,30,48,2,3,2,2,15
+30,2026-04-01,New Zealand,Gill,Punjab,23,18,3,3,0,0,0
+30,2026-04-01,New Zealand,Rahul,Karnataka,33,26,4,1,4,3,27
+30,2026-04-01,New Zealand,Siraj,Hyderabad,13,17,3,1,2,3,14
