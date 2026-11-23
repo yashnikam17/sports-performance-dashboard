@@ -21,3 +21,7 @@ py -m streamlit run app.py
 ## Team
 - Yash Sandip Nikam
 - Anuj Shrikant Wavhal
+
+
+
+"""py -m streamlit run app.py"""

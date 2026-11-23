@@ -8,6 +8,7 @@ def load_data(path="data/matches.csv"):
 
 def player_summary(df):
     g = df.groupby("player").agg(
+        role=("role", "first"),
         matches=("match_id", "nunique"),
         runs=("runs", "sum"),
         balls=("balls_faced", "sum"),

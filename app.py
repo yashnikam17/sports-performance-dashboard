@@ -41,10 +41,12 @@ if filtered.empty:
     st.stop()
 
 summary = player_summary(filtered)
+batting_summary = summary[summary["role"].isin(["Batsman", "All-rounder"])]
+bowling_summary = summary[summary["role"].isin(["Bowler", "All-rounder"])]
 
 # ---------- KPI cards ----------
-top_bat = summary.sort_values("runs", ascending=False).iloc[0]
-top_bowl = summary.sort_values("wickets", ascending=False).iloc[0]
+top_bat = batting_summary.sort_values("runs", ascending=False).iloc[0]
+top_bowl = bowling_summary.sort_values("wickets", ascending=False).iloc[0]
 
 c1, c2, c3, c4, c5 = st.columns(5)
 c1.metric("Matches", filtered["match_id"].nunique())
@@ -63,25 +65,25 @@ tab1, tab2, tab3, tab4 = st.tabs(
 with tab1:
     l, r = st.columns(2)
     with l:
-        fig = px.bar(summary.sort_values("runs", ascending=False),
+        fig = px.bar(batting_summary.sort_values("runs", ascending=False),
                      x="player", y="runs", color="runs",
                      color_continuous_scale="Blues", title="Top Run Scorers")
         st.plotly_chart(fig, use_container_width=True)
     with r:
-        fig = px.bar(summary.sort_values("wickets", ascending=False),
+        fig = px.bar(bowling_summary.sort_values("wickets", ascending=False),
                      x="player", y="wickets", color="wickets",
                      color_continuous_scale="Reds", title="Top Wicket Takers")
         st.plotly_chart(fig, use_container_width=True)
 
     l, r = st.columns(2)
     with l:
-        fig = px.scatter(summary, x="strike_rate", y="batting_avg",
+        fig = px.scatter(batting_summary, x="strike_rate", y="batting_avg",
                          size="runs", color="player", text="player",
                          title="Strike Rate vs Batting Average")
         fig.update_traces(textposition="top center")
         st.plotly_chart(fig, use_container_width=True)
     with r:
-        fig = px.bar(summary.dropna(subset=["economy"]).sort_values("economy"),
+        fig = px.bar(bowling_summary.dropna(subset=["economy"]).sort_values("economy"),
                      x="player", y="economy", color="economy",
                      color_continuous_scale="Viridis_r",
                      title="Bowling Economy (lower is better)")
@@ -97,30 +99,46 @@ with tab2:
     p_df = filtered[filtered["player"] == player].sort_values("date")
     p_sum = summary[summary["player"] == player].iloc[0]
 
-    a, b, c, d, e = st.columns(5)
-    a.metric("Runs", int(p_sum["runs"]))
-    b.metric("Batting Avg", p_sum["batting_avg"])
-    c.metric("Strike Rate", p_sum["strike_rate"])
-    d.metric("Highest", int(p_sum["highest"]))
-    e.metric("Last 5 Avg", round(recent_form(filtered, player), 1))
+    if p_sum["role"] == "Bowler":
+        a, b, c, d, e = st.columns(5)
+        a.metric("Wickets", int(p_sum["wickets"]))
+        b.metric("Overs", int(p_sum["overs"]))
+        c.metric("Runs Conceded", int(p_sum["conceded"]))
+        d.metric("Economy", p_sum["economy"])
+        e.metric("Role", p_sum["role"])
 
-    l, r = st.columns(2)
-    with l:
-        p_df = p_df.assign(rolling_avg=p_df["runs"].rolling(5, min_periods=1).mean())
-        fig = go.Figure()
-        fig.add_trace(go.Scatter(x=p_df["date"], y=p_df["runs"],
-                                 mode="lines+markers", name="Runs"))
-        fig.add_trace(go.Scatter(x=p_df["date"], y=p_df["rolling_avg"],
-                                 mode="lines", name="5-match avg",
-                                 line=dict(dash="dash")))
-        fig.update_layout(title=f"{player} - Runs Trend")
+        fig = px.line(p_df, x="date", y="wickets", markers=True,
+                      title=f"{player} - Wickets per Match")
         st.plotly_chart(fig, use_container_width=True)
-    with r:
-        fig = px.pie(values=[p_sum["fours"] * 4, p_sum["sixes"] * 6,
-                             p_sum["runs"] - p_sum["fours"] * 4 - p_sum["sixes"] * 6],
-                     names=["Fours", "Sixes", "Singles/Doubles"],
-                     title=f"{player} - How runs are scored", hole=0.4)
-        st.plotly_chart(fig, use_container_width=True)
+    else:
+        a, b, c, d, e = st.columns(5)
+        a.metric("Runs", int(p_sum["runs"]))
+        b.metric("Batting Avg", p_sum["batting_avg"])
+        c.metric("Strike Rate", p_sum["strike_rate"])
+        if p_sum["role"] == "All-rounder":
+            d.metric("Wickets", int(p_sum["wickets"]))
+            e.metric("Economy", p_sum["economy"])
+        else:
+            d.metric("Highest", int(p_sum["highest"]))
+            e.metric("Last 5 Avg", round(recent_form(filtered, player), 1))
+
+        l, r = st.columns(2)
+        with l:
+            p_df = p_df.assign(rolling_avg=p_df["runs"].rolling(5, min_periods=1).mean())
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=p_df["date"], y=p_df["runs"],
+                                     mode="lines+markers", name="Runs"))
+            fig.add_trace(go.Scatter(x=p_df["date"], y=p_df["rolling_avg"],
+                                     mode="lines", name="5-match avg",
+                                     line=dict(dash="dash")))
+            fig.update_layout(title=f"{player} - Runs Trend")
+            st.plotly_chart(fig, use_container_width=True)
+        with r:
+            fig = px.pie(values=[p_sum["fours"] * 4, p_sum["sixes"] * 6,
+                                 p_sum["runs"] - p_sum["fours"] * 4 - p_sum["sixes"] * 6],
+                         names=["Fours", "Sixes", "Singles/Doubles"],
+                         title=f"{player} - How runs are scored", hole=0.4)
+            st.plotly_chart(fig, use_container_width=True)
 
 # ===== TAB 3: Compare =====
 with tab3:
@@ -168,4 +186,4 @@ with tab4:
                     title="Player vs Opponent Runs Heatmap")
     st.plotly_chart(fig, use_container_width=True)
 
-st.caption("Made by Yash & Friend | Data is simulated for demo purposes")
+st.caption("Made by Yash & Anuj ")
