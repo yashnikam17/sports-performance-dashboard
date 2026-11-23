@@ -56,7 +56,7 @@ streamlit run app.py
 
 ## 👥 Team
 - [Yash Nikam](https://github.com/yashnikam17)
-- [YOUR_FRIEND_NAME](https://github.com/FRIEND_USERNAME)
+- [Anuj Wavhal](https://github.com/anujwavhal2157)
 
 ## 📝 Note
 Data used in this project is simulated for demo purposes.
